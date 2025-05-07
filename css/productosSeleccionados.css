@@ -1,0 +1,174 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #fdfdfd;
+    color: #333;
+}
+
+/* ----------- Header --------------- */
+header {
+    background-color: #ffcc00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    flex-wrap: wrap;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    margin-right: 10px;
+}
+.carrito a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.carrito img {
+    width: 30px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-toggle {
+    background-color: #ffcc00;
+    color: #333;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.dropdown-toggle:hover {
+    background-color: #ffee58;
+    color: #000;
+}
+
+.dropdown-menu {
+    background-color: #fff8dc;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px 0;
+    margin-top: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+    color: #333;
+    padding: 8px 20px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.2s;
+    font-weight: bold;
+}
+
+.dropdown-item:hover {
+    background-color: #ffecb3;
+    color: #000;
+}
+/* ----------- Productos --------------- */
+main {
+    padding: 30px 20px;
+}
+
+.contenedor-productos {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contenedor-productos h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.productosSeleccionados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+.productosSeleccionados img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.productosSeleccionados p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.productosSeleccionados a img {
+    width: 25px;
+    margin-top: 10px;
+    transition: transform 0.2s;
+}
+
+.productosSeleccionados a img:hover {
+    transform: scale(1.1);
+}
+
+/* ----------- Total --------------- */
+.total {
+    text-align: center;
+    font-size: 18px;
+}
+
+.total p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.total a {
+    background-color: #9aa728;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.total a:hover {
+    background-color: #ffee00;
+    color: black;
+}
+
+/* ----------- Footer --------------- */
+footer {
+    background-color: #ffe082;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.infoFooter a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
