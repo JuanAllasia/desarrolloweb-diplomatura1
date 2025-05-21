@@ -1,0 +1,15 @@
+@use "../abstracts/variables" as *;
+
+* {
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: $color-principal;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+    padding: 20px;
+}

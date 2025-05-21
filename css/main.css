@@ -1,0 +1,319 @@
+* {
+  margin: 0%;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff8e1;
+  color: #333;
+  line-height: 1.6;
+  text-align: center;
+  padding: 20px;
+}
+
+header {
+  background-color: #ffcc00;
+  padding: 10px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+header h1 {
+  font-size: 2.5rem;
+  color: #333;
+  letter-spacing: 2px;
+}
+
+main .infoprincipal {
+  margin: 40px auto;
+  max-width: 600px;
+  font-size: 1.2rem;
+  color: #555;
+}
+main .botonprincipal {
+  margin: 30px auto;
+}
+main .botonprincipal a {
+  display: inline-block;
+  margin: 10px;
+  padding: 15px 25px;
+  background-color: #ff8c42;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+main .botonprincipal a:hover {
+  background-color: #e67600;
+}
+
+footer {
+  background-color: #ffe082;
+  padding: 20px 0;
+  margin-top: 50px;
+}
+footer .infoFooter a {
+  margin: 0 15px;
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+footer .infoFooter a:hover {
+  color: #ff8c42;
+}
+
+header {
+  background-color: #ffcc00;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  flex-wrap: wrap;
+}
+header .logo {
+  display: flex;
+  align-items: center;
+}
+header .logo img {
+  width: 50px;
+  margin-right: 10px;
+}
+header .carrito a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+header .carrito img {
+  width: 30px;
+}
+header .dropdown {
+  position: relative;
+  display: inline-block;
+}
+header .dropdown-toggle {
+  background-color: #ffcc00;
+  color: #333;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+header .dropdown-toggle:hover {
+  background-color: #ffee58;
+  color: #000;
+}
+header .dropdown-menu {
+  background-color: #fff8dc;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px 0;
+  margin-top: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+header .dropdown-item {
+  color: #333;
+  padding: 8px 20px;
+  text-decoration: none;
+  display: block;
+  transition: background-color 0.2s;
+  font-weight: bold;
+}
+header .dropdown-item:hover {
+  background-color: #ffecb3;
+  color: #000;
+}
+
+main .contenedor-productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px;
+}
+main .productos {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  width: 200px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+main .productos img {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+}
+main .productos p {
+  margin: 10px 0;
+  font-weight: 500;
+  text-align: center;
+}
+main .productos a {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #ff8c42;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 33px;
+}
+main .productos a:hover {
+  background-color: #e6c700;
+  color: black;
+}
+
+footer {
+  background-color: #ffe082;
+  padding: 15px 0;
+  margin-top: 40px;
+}
+footer .infoFooter a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+header {
+  background-color: #ffcc00;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  flex-wrap: wrap;
+}
+header .logo {
+  display: flex;
+  align-items: center;
+}
+header .logo img {
+  width: 50px;
+  margin-right: 10px;
+}
+header .carrito a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+header .carrito img {
+  width: 30px;
+}
+header .dropdown {
+  position: relative;
+  display: inline-block;
+}
+header .dropdown-toggle {
+  background-color: #ffcc00;
+  color: #333;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+header .dropdown-toggle:hover {
+  background-color: #ffee58;
+  color: #000;
+}
+header .dropdown-menu {
+  background-color: #fff8dc;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px 0;
+  margin-top: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+header .dropdown-item {
+  color: #333;
+  padding: 8px 20px;
+  text-decoration: none;
+  display: block;
+  transition: background-color 0.2s;
+  font-weight: bold;
+}
+header .dropdown-item:hover {
+  background-color: #ffecb3;
+  color: #000;
+}
+
+main {
+  padding: 30px 20px;
+}
+main .contenedor-productos {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+main .contenedor-productos h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+main .productosSeleccionados {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+main .productosSeleccionados img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+main .productosSeleccionados p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+main .productosSeleccionados a img {
+  width: 25px;
+  margin-top: 10px;
+  transition: transform 0.2s;
+}
+main .productosSeleccionados a img :hover {
+  transform: scale(1.1);
+}
+main .total {
+  text-align: center;
+  font-size: 18px;
+}
+main .total p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+main .total a {
+  background-color: #9aa728;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+main .total a:hover {
+  background-color: #ffee00;
+  color: black;
+}
+
+footer {
+  background-color: #ffe082;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+footer .infoFooter a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,17 +1,3 @@
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Arial', sans-serif;
-}
-
-body {
-    background-color: #fdfdfd;
-    color: #333;
-}
-
-/* ----------- Header --------------- */
 header {
     background-color: #ffcc00;
     display: flex;
@@ -19,28 +5,27 @@ header {
     align-items: center;
     padding: 15px 30px;
     flex-wrap: wrap;
-}
-
-.logo {
+    .logo {
     display: flex;
     align-items: center;
-}
-
-.logo img {
+    img {
     width: 50px;
     margin-right: 10px;
 }
-.carrito a {
+
+}
+.carrito{
+    a {
     margin: 0 15px;
     text-decoration: none;
     color: #333;
     font-weight: bold;
 }
-
-.carrito img {
+img {
     width: 30px;
 }
 
+}
 .dropdown {
     position: relative;
     display: inline-block;
@@ -83,22 +68,21 @@ header {
     background-color: #ffecb3;
     color: #000;
 }
-/* ----------- Productos --------------- */
+
+
+}
 main {
     padding: 30px 20px;
-}
-
-.contenedor-productos {
+    .contenedor-productos {
     max-width: 1000px;
     margin: 0 auto;
     text-align: center;
-}
-
-.contenedor-productos h2 {
+    h2 {
     font-size: 28px;
     margin-bottom: 30px;
 }
 
+}
 .productosSeleccionados {
     display: flex;
     flex-direction: column;
@@ -108,42 +92,36 @@ main {
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     margin-bottom: 30px;
-}
-
-.productosSeleccionados img {
+    img {
     width: 200px;
     height: auto;
     border-radius: 10px;
     margin-bottom: 10px;
 }
-
-.productosSeleccionados p {
+p {
     margin: 5px 0;
     font-size: 16px;
 }
-
-.productosSeleccionados a img {
+a img {
     width: 25px;
     margin-top: 10px;
     transition: transform 0.2s;
-}
-
-.productosSeleccionados a img:hover {
+    :hover {
     transform: scale(1.1);
 }
 
-/* ----------- Total --------------- */
+}
+
+
+}
 .total {
     text-align: center;
     font-size: 18px;
-}
-
-.total p {
+    p {
     font-weight: bold;
     margin-bottom: 10px;
 }
-
-.total a {
+a {
     background-color: #9aa728;
     color: white;
     padding: 10px 25px;
@@ -151,24 +129,28 @@ main {
     border-radius: 5px;
     font-weight: bold;
     transition: background-color 0.3s;
-}
 
-.total a:hover {
+
+}
+a:hover {
     background-color: #ffee00;
     color: black;
 }
+}
 
-/* ----------- Footer --------------- */
-footer {
+
+
+}
+footer{
     background-color: #ffe082;
     padding: 20px 0;
     text-align: center;
     margin-top: 40px;
-}
-
 .infoFooter a {
     margin: 0 15px;
     text-decoration: none;
     color: #333;
     font-weight: bold;
 }
+}
+
